@@ -3,4 +3,10 @@ class PhotoShout < ActiveRecord::Base
     shout: "200x200>"
   }
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
+
+  belongs_to :user
+
+  def index
+    image_file_name
+  end
 end
