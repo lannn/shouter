@@ -8,6 +8,8 @@ gem 'sqlite3'
 gem 'monban'
 gem 'monban-generators'
 gem 'paperclip'
+gem 'sunspot_rails'
+gem 'sunspot_solr'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
